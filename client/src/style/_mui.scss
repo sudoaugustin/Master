@@ -1,0 +1,56 @@
+$productSans: 'product_sans', Georgia, Cambria, 'Times New Roman', Times, serif !important;
+.MuiDrawer-paper {
+  z-index: 10 !important;
+}
+.MuiInputLabel-outlined.CustomMuiFormLabel-root.Mui-focused,
+.MuiInputLabel-outlined.CustomMuiFormLabel-root[data-shrink='true'] {
+  background-color: #fff;
+  padding: 0px 6px;
+  z-index: 1;
+}
+.collaborator-lists {
+  .MuiListItem-root {
+    justify-content: space-between !important;
+  }
+  .MuiListItem-gutters {
+    padding: 0 !important;
+  }
+}
+
+.MuiFormControl-root {
+  margin: 10px 0 !important;
+}
+
+.MuiDialogTitle-root {
+  padding: 8px 16px !important;
+}
+.MuiDialogContent-root {
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  .add-note-root {
+    .MuiInputBase-root {
+      padding: 8px 16px !important;
+      min-width: 400px;
+      @media #{$xs} {
+        min-width: 50px !important;
+      }
+    }
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 6px !important;
+}
+// .MuiTypography-root {
+//   font-family: $productSans;
+// }
+.MuiFormLabel-root,
+.MuiInputBase-root,
+.MuiAutocomplete-listbox,
+.MuiAutocomplete-noOptions,
+.MuiButtonBase-root,
+.MuiTypography-root,
+.MuiTooltip-tooltip,
+.MuiFormHelperText-root,
+.MuiAlert-message {
+  font-family: $productSans;
+}

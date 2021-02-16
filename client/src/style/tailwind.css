@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.after-primary::after {
+  content: ' ';
+  height: 3px;
+  @apply rounded-t bg-primary-500 absolute  bottom-0 w-full;
+}
+
+.hover\:mx-0:hover {
+  @apply mx-0;
+}
+
+.hover\:px-4:hover {
+  @apply px-4;
+}
+
+.font-serif * {
+  @apply font-serif;
+}

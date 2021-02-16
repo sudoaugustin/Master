@@ -1,0 +1,8 @@
+{
+  "mongodbURL": "mongodb+srv://auguestin:wit2020wala@auguestin-brtgy.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "mail": {
+    "user": "academey2020@gmail.com",
+    "pass": "Helloworld@2001"
+  },
+  "secret_token": "1b671a64-40d5-491e-99b0-da01ff1f3341"
+}

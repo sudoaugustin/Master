@@ -1,0 +1,58 @@
+export default {
+  EN: {
+    NULL: {
+      email: "Enter email",
+      password: "Enter password",
+      confirm: "Confirm password",
+      username: "Enter username",
+      recovery_email: "Enter account email",
+      code: "Enter 6-digit code",
+      reminder: "Sorry,you didn't set password reminder",
+    },
+    INVALID: {
+      email: "Enter valid email",
+      password: "Password's minium length is 8",
+      confirm: "Passwords didn't match",
+      username_1: "Username's minium length is 5",
+      username_2: "Enter only letter",
+      code: "Enter valid code",
+      req_token: "Invalid request token",
+      newpassword: "New password can't be old password",
+    },
+    WRONG: {
+      email_1: "Account already exists",
+      email_2: "Email not found",
+      password: "Wrong password",
+      code: "Wrong code",
+    },
+    UNKNOWN: "Unknown error occured",
+  },
+  MM: {
+    NULL: {
+      email: "အီးမေးလ်ရိုက်ထည့်ပါ",
+      username: "အသုံးပြုသူအမည်ရိုက်ထည့်ပါ",
+      password: "စကားဝှက်ရိုက်ထည့်ပါ",
+      confirm: "စကားဝှက်ကိုအတည်ပြုပါ",
+      recovery_email: "သင်၏အကောင့်အီးမေးလ်ကိုရိုက်ထည့်ပါ",
+      code: "​​ဂဏန်းကုဒ် ၆လုံးရိုက်ထည့်ပါ",
+      reminder: "စိတ်မကောင်းပါ,စကားဝှက်သတိပေးမှု မသတ်မှတ်ထားပါ",
+    },
+    INVALID: {
+      email: "မှန်ကန်သောအီးမေးလ်ရိုက်ထည့်ပါ",
+      password: "စကားဝှက်သည်၈လုံး သို့ ၈လုံးထက်ပိုရမည်",
+      confirm: "စကားဝှက်များမတူညီပါ",
+      username_1: "အသုံးပြုသူအမည်သည် ၅လုံးထက်ပိုရမည်",
+      username_2: "အက္ခရာသာရိုက်ထည့်ပါ",
+      code: "မှန်ကန်သောကုဒ်ရိုက်ထည့်ပါ",
+      req_token: "မမှန်ကန်သောတောင်းဆိုမှုအမှတ်အသား",
+      newpassword: "စကားဝှက်အသစ်သည်စကားဝှက်အဟောင်းမဖြစ်နိုင်ပါ",
+    },
+    WRONG: {
+      email_1: "ဒီအီးမေးလ်နဲ့အကောင့်ရှိပြီးသား",
+      email_2: "ဒီအီးမေးလ်နဲ့အကောင့်မတွေ့ပါ",
+      password: "စကားဝှက်မှားယွင်းနေသည်",
+      code: "ကုဒ်မှားယွင်းနေသည်",
+    },
+    UNKNOWN: "တစ်ခုခုမှားယွင်းသွားသည်",
+  },
+};

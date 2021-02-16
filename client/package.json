@@ -1,0 +1,69 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.47",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apexcharts": "^3.17.1",
+    "axios": "^0.21.1",
+    "base64-min": "^2.0.0",
+    "clearbit": "^1.3.5",
+    "copy-to-clipboard": "^3.3.1",
+    "country-state-city": "^1.0.4",
+    "credit-card": "^3.0.2",
+    "date-fns": "^2.11.1",
+    "detect-browser": "^5.0.0",
+    "generate-password": "^1.5.1",
+    "lz-string": "^1.4.4",
+    "node-sass": "^4.13.1",
+    "pwd-strength": "^1.0.3",
+    "react": "^16.13.1",
+    "react-apexcharts": "^1.3.6",
+    "react-credit-cards": "^0.8.0",
+    "react-dom": "^16.13.1",
+    "react-parallax-tilt": "^1.3.41",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^4.0.0",
+    "react-timeago": "^4.4.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "simple-os-platform": "^1.1.0",
+    "text-ellipsis": "^1.0.3",
+    "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000/",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
